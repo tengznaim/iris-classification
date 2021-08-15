@@ -38,14 +38,19 @@ This is not currently implemented yet but I intend to implement a simple ANN to 
 
    - https://towardsdatascience.com/data-preprocessing-and-eda-for-data-science-50ba6ea65c0a
 
-2. Cross Validation Set vs Test Set
+2. Visualising Data with Pair Plots
+
+   - https://towardsdatascience.com/visualizing-data-with-pair-plots-in-python-f228cf529166
+   - https://seaborn.pydata.org/generated/seaborn.pairplot.html
+
+3. Cross Validation Set vs Test Set
 
    - https://machinelearningmastery.com/difference-test-validation-datasets/
 
-3. Plotting Multiple Confusion Matrices
+4. Plotting Multiple Confusion Matrices
 
    - https://stackoverflow.com/questions/61016110/plot-multiple-confusion-matrices-with-plot-confusion-matrix
 
-4. Saving Models Using Pickle
+5. Saving Models Using Pickle
    - https://stackabuse.com/scikit-learn-save-and-restore-models/
    - https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/

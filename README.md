@@ -35,10 +35,17 @@ This is not currently implemented yet but I intend to implement a simple ANN to 
 ## References
 
 1. Article on Data Preprocessing and EDA
-   https://towardsdatascience.com/data-preprocessing-and-eda-for-data-science-50ba6ea65c0a
+
+   - https://towardsdatascience.com/data-preprocessing-and-eda-for-data-science-50ba6ea65c0a
 
 2. Cross Validation Set vs Test Set
-   https://machinelearningmastery.com/difference-test-validation-datasets/
 
-3. Plotting multiple confusion matrices
-   https://stackoverflow.com/questions/61016110/plot-multiple-confusion-matrices-with-plot-confusion-matrix
+   - https://machinelearningmastery.com/difference-test-validation-datasets/
+
+3. Plotting Multiple Confusion Matrices
+
+   - https://stackoverflow.com/questions/61016110/plot-multiple-confusion-matrices-with-plot-confusion-matrix
+
+4. Saving Models Using Pickle
+   - https://stackabuse.com/scikit-learn-save-and-restore-models/
+   - https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/

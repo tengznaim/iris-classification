@@ -26,11 +26,11 @@ Since there were no missing values in this particular dataset, one commonly vita
 
 ### Logistic Regression
 
-The first solution I tried uses a logistic regression model provided by the sklearn package. The result was a model that performed reasonably well on both the training set and the test set with a typical accuracy of >= 90%.
+The first approach I tried uses a logistic regression model provided by the sklearn package. Based on the documentation, the model uses a one-vs-all approach for multiclass classification and the cross-entropy loss. The result was a model that performed reasonably well on both the training set and the test set with a typical accuracy of >= 90%.
 
 ### Neural Network
 
-This is not currently implemented yet but I intend to implement a simple ANN to perform classification on the dataset to compare the performance with the logistic regression model.
+This approach uses the MLPClassifier also provided by the sklearn package. The classifier has many tweakable parameters but the current implementation mostly uses the default parameters with some changes to the solver and the number of the hidden units. The result is a classifier that performs reasonably well but not as well as the logistic regression implementation.
 
 ## References
 
@@ -52,5 +52,13 @@ This is not currently implemented yet but I intend to implement a simple ANN to 
    - https://stackoverflow.com/questions/61016110/plot-multiple-confusion-matrices-with-plot-confusion-matrix
 
 5. Saving Models Using Pickle
+
    - https://stackabuse.com/scikit-learn-save-and-restore-models/
    - https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
+
+6. Multi Layer Perceptron with Scikit Learn
+
+   - https://annisap.medium.com/build-your-first-neural-network-in-python-c80c1afa464
+
+7. Label Encoding vs One Hot Encoding
+   - https://towardsdatascience.com/choosing-the-right-encoding-method-label-vs-onehot-encoder-a4434493149b
